@@ -16,9 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.boletaActivity"
-            android:label="Generar boleta electronica ">
-        </activity>
+        <activity
+            android:name=".menu.MenuDrawer_Activity"
+            android:label="@string/title_activity_menu_drawer_"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
